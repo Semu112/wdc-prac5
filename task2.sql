@@ -43,7 +43,7 @@ CREATE TABLE `Enrolments` (
 
 LOCK TABLES `Enrolments` WRITE;
 /*!40000 ALTER TABLE `Enrolments` DISABLE KEYS */;
-INSERT INTO `Enrolments` VALUES ('a1111111','COMP SCI 1102',62),('a1111111','COMP SCI 2000',80),('a1111112','COMP SCI 11O2',55),('a1111112','COMP SCI 2207',80),('a1111113','PHIL 2309',65),('a1111113','COMP SCI 2207',67),('a1111114','COMP SCI 2207',67),('a1111114','COMP SCI 2000',49);
+INSERT INTO `Enrolments` VALUES ('a1111111','COMP SCI 1102',62),('a1111111','COMP SCI 2000',80),('a1111112','COMP SCI 11O2',55),('a1111112','COMP SCI 2207',80),('a1111113','PHIL 2309',65),('a1111113','COMP SCI 1102',46),('a1111114','COMP SCI 2207',67),('a1111114','COMP SCI 2000',49);
 /*!40000 ALTER TABLE `Enrolments` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -68,7 +68,7 @@ CREATE TABLE `Students` (
 
 LOCK TABLES `Students` WRITE;
 /*!40000 ALTER TABLE `Students` DISABLE KEYS */;
-INSERT INTO `Students` VALUES ('a1111111','Fang','Li','BE(Hons)(Soft)'),('a1111112','Jane','Brown','BE(Hons)(Soft)'),('a1111113','Bob','Smith','BCompSc'),('a1111113','Wei','Zhang','BCompSc');
+INSERT INTO `Students` VALUES ('a1111111','Fang','Li','BE(Hons)(Soft)'),('a1111112','Jane','Brown','BE(Hons)(Soft)'),('a1111113','Bob','Smith','BCompSc'),('a1111114','Wei','Zhang','BCompSc');
 /*!40000 ALTER TABLE `Students` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -92,7 +92,7 @@ CREATE TABLE `Subjects` (
 
 LOCK TABLES `Subjects` WRITE;
 /*!40000 ALTER TABLE `Subjects` DISABLE KEYS */;
-INSERT INTO `Subjects` VALUES ('COMP SCI 1102','Object Oriented Programming','ECMS'),('COMP SCI 2207','Web and Database Computing','ECMS'),('COMP SCI 2000','Computer Systems','ECMS'),('Phil 2309','Philosophy of Mind','Arts');
+INSERT INTO `Subjects` VALUES ('COMP SCI 1102','Object Oriented Programming','ECMS'),('COMP SCI 2207','Web and Database Computing','ECMS'),('COMP SCI 2000','Computer Systems','ECMS'),('PHIL 2309','Philosophy of Mind','Arts');
 /*!40000 ALTER TABLE `Subjects` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -105,4 +105,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-07  5:01:52
+-- Dump completed on 2022-04-07  5:21:47
