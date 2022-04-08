@@ -1,0 +1,1 @@
+UPDATE Enrolments INNER JOIN Students ON Students.student_id=Enrolments.student_id SET mark=50 WHERE given_name='Bob' AND family_name='Smith' AND subject_code='COMP SCI 1102';
